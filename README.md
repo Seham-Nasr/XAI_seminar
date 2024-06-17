@@ -18,6 +18,10 @@ Links:
 
 2- Download link: [Kaggle](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
 
+Extract the dataset into the newly created folder named `dataset`.
+The final path of the dataset should look like '/dataset/Ravdess/audio_speech_actors_01-24/'
+
+
 
 
 

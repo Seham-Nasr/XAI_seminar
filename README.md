@@ -6,6 +6,7 @@ This repository contains Tutorial notebooks for "Explainable AI for Affective Sp
 Setup a new conda environment and install all the required libraries
 
 `conda create --name your-env-name`
+
 `pip install -r requirements.txt`
 
 # Datasets

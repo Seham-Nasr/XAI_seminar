@@ -43,6 +43,10 @@ For the next step, you have two options:
 To generate SHAP explanations, follow the instructions in the notebook _'/XAI_seminar/trained_model/SHAP_XAI4SER.ipynb'_. Please note that generating SHAP values for all 1440 instances in the dataset can be computationally intensive. For learning purposes, consider sampling a smaller subset of instances and proceed with feature importance generation as demonstrated in section C13 of the notebook.
 
 
+### Ongoing work
+Notebooks _openSmile_feature.ipynb_ & 
+
+
 
 
 

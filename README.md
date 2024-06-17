@@ -31,6 +31,11 @@ The Sequential CNN trained model on Ravdess data is available in the directory _
 # Usage
 I recommend starting with the notebook called _data_processing.ipynb_ to build some knowledge about the dataset, which is just a straightforward implementation for processing and visualizing the speech data.
 
+The next step is available with two options, either start with training the model from scratch and test the model with the available metrics then save the model for the next step of _'post-hoc'_ explanation. **OR** Start directly by using the saved model mentioned above in  _'/XAI_seminar/trained_model/Speech_CNN.h5'_.
+
+**The last step is generating SHAP explanations**
+Follow the code structured in the notebook called _'/XAI_seminar/trained_model/SHAP_XAI4SER.ipynb'_. Just so you know, generating SHAP Values for all datasets of 1440 instances might cost much computation time. Thus, for learning purposes, you can sample a small number of instances from the data and proceed with feature importance generation as in C13.
+
 
 
 

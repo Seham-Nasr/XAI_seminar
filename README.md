@@ -44,7 +44,7 @@ To generate SHAP explanations, follow the instructions in the notebook _'/XAI_se
 
 
 ### Ongoing work
-Notebooks _openSmile_feature.ipynb_ & 
+Notebooks _openSmile_feature.ipynb_ & Folder _visual_speech_
 
 
 

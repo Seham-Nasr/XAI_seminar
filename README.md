@@ -29,12 +29,17 @@ The proceed data and extracted features are available in CSV file formats _'XAI_
 The Sequential CNN trained model on Ravdess data is available in the directory _'/XAI_seminar/trained_model/Speech_CNN.h5'_.
 
 # Usage
-I recommend starting with the notebook called _data_processing.ipynb_ to build some knowledge about the dataset, which is just a straightforward implementation for processing and visualizing the speech data.
+I recommend beginning with the notebook titled _'data_processing.ipynb'_ to familiarize yourself with the dataset. This notebook offers a straightforward implementation for processing and visualizing Ravdess speech data.
 
-The next step is available with two options, either start with training the model from scratch and test the model with the available metrics then save the model for the next step of _'post-hoc'_ explanation. **OR** Start directly by using the saved model mentioned above in  _'/XAI_seminar/trained_model/Speech_CNN.h5'_.
+For the next step, you have two options:
 
-**The last step is generating SHAP explanations**
-Follow the code structured in the notebook called _'/XAI_seminar/trained_model/SHAP_XAI4SER.ipynb'_. Just so you know, generating SHAP Values for all datasets of 1440 instances might cost much computation time. Thus, for learning purposes, you can sample a small number of instances from the data and proceed with feature importance generation as in C13.
+1- Train the Model from Scratch: Start by training the model using the provided dataset. After training, test the model with the available metrics and save it for the subsequent step of post-hoc explanation.
+
+2- Use a Pre-Trained Model: Alternatively, you can use the pre-trained model available at _'/XAI_seminar/trained_model/Speech_CNN.h5'_ to skip the training phase.
+
+**Final Step: Generating SHAP Explanations**
+
+To generate SHAP explanations, follow the instructions in the notebook _'/XAI_seminar/trained_model/SHAP_XAI4SER.ipynb'_. Please note that generating SHAP values for all 1440 instances in the dataset can be computationally intensive. For learning purposes, consider sampling a smaller subset of instances and proceed with feature importance generation as demonstrated in section C13 of the notebook.
 
 
 

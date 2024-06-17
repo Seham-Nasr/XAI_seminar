@@ -36,7 +36,7 @@ For the next step, you have two options:
 
 1- Train the Model from Scratch: Start by training the model using the provided dataset. After training, test the model with the available metrics and save it for the subsequent step of post-hoc explanation.
 
-2- Use a Pre-Trained Model: Alternatively, you can use the pre-trained model available at _'/XAI_seminar/trained_model/Speech_CNN.h5'_ to skip the training phase.
+2- Use a Pre-Trained Model: Alternatively, you can use the pre-trained model available at _'/XAI_seminar/trained_model/Speech_CNN.h5'_ to skip the training phase and start directly with the notebook called _'SHAP_XAI4SER.ipynb'_.
 
 **Final Step: Generating SHAP Explanations**
 

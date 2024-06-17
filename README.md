@@ -1,2 +1,4 @@
 # XAI_seminar
-Explainable AI for Affective computing Seminar 2024
+Explainable AI for Affective Speech Recognition.
+
+
